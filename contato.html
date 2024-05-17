@@ -6,7 +6,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="./css/desenvolvedores.css">
+   <link rel="stylesheet" href="./css/contato.css">
    <link rel="stylesheet" href="./css/app.css">
    <link rel="stylesheet" href="./css/header.css">
    <link rel="stylesheet" href="./css/footer.css">
@@ -28,6 +28,33 @@
    <main>
         <div class="title">
             <h1>Contato</h1>
+        </div>
+        <div class="formularioContato">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label>
+                    <span>Nome</span>
+                    <input type="text" name="nome" required="">
+                </label>
+
+                <label>
+                    <span>E-mail</span>
+                    <input type="text" name="email" class="fade_8S">
+                </label>
+    
+                <label>
+                    <span>Assunto</span>
+                    <input type="text" name="assunto" required="">
+                </label>
+                
+                <label>
+                    <span>Mensagem</span>
+                     <textarea name="mensagem" rows="3" required=""></textarea> 
+                </label>
+               
+                <input type="hidden" name="acao" value="enviar" />
+                <button class="btn-envia" title="Enviar">Enviar</button>
+            </form>
+    
         </div>
    </main>
    <footer>
