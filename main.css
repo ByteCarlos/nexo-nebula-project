@@ -1,0 +1,119 @@
+main {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+}
+
+main .left-container {
+    width: 50%;
+    font-family: "Karantina", system-ui;
+    font-weight: 500;
+    height: 100%;
+}
+
+main .left-container .first {
+    height: 250px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+main .left-container .first .line {
+    height: 70%;
+    width: 1px;
+    margin-left: 5%;
+    margin-right: 30px;
+    background-color: white;
+}
+
+main .left-container .first .text {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+main .left-container .second {
+    height: 350px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+main .left-container .second .lines-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    width: 10%;
+}
+
+main .left-container .second .lines-container .first-line {
+    height: 1px;
+    margin-right: 20px;
+    width: 20px;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+main .left-container .second .lines-container .second-line {
+    width: 0.5px;
+    height: 200px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+main .left-container .second .text-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+main .left-container .second .text-container .first-text {
+    margin-bottom: 40px;
+}
+
+main .left-container .second .text-container .second-text {
+    margin-left: 30px;
+}
+
+main .right-container {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 40%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karantina", system-ui;
+
+}
+
+main .right-container .line-container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+main .right-container .line-container .line {
+    width: 1px;
+    height: 30%;
+    margin: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+main .right-container .text-container {
+    font-size: 20px;
+}
+
+main .right-container .text-container img {
+    margin-top: 50px;
+}

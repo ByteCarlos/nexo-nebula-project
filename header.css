@@ -1,0 +1,42 @@
+header {
+    height: 5rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo-and-search-bar-container {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-and-search-bar-container h1 {
+    font-family: "Karantina", system-ui;
+    font-weight: 500;
+    font-size: 40px;
+    color: #BD00FF;
+}
+
+.logo-and-search-bar-container input {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.links-container {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-container a{
+    color: white;
+    text-decoration: none;
+    font-family: "Karantina", system-ui;
+    font-weight: 500;
+    font-size: 20px;
+}
