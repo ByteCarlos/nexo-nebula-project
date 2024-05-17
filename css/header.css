@@ -19,6 +19,11 @@ header {
     color: #BD00FF;
 }
 
+.logo-and-search-bar-container img {
+    position: absolute;
+    right: 56%;
+}
+
 .logo-and-search-bar-container input {
     width: 350px;
     height: 30px;
