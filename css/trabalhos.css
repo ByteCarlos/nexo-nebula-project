@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40rem;
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+}
+
+main .title {
+    margin-bottom: 5rem;
+}
+
+main .line {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+main .line .work {
+    width: 40%;
+}
+
+main .line .work .title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+main .line .work .description {
+    text-align: justify;
+    width: 80%;
+}
+
+main .line .work button {
+    color: white;
+    font-weight: bold;
+    background-color: #BD00FF;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}

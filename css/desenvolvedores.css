@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+}
+
+main .title {
+    font-size: 25px;
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    margin-bottom: 5rem;
+}
+
+main .persons-container {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .persons-container .person-info {
+    text-align: center;
+}
+
+main .persons-container .person-info img {
+    margin-bottom: 20px;
+}
+
+main .persons-container .person-info h4 {
+    font-weight: 400;
+}

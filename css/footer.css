@@ -21,14 +21,13 @@ footer .right-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 footer .left-container .address {
-    margin-bottom: 20px;
     font-size: 16px;
 }
 
-footer .left-container .postal-code {
+footer .right-container .postal-code {
     font-size: 12px;
 }
