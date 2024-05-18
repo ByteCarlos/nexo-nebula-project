@@ -11,22 +11,22 @@ document.addEventListener("DOMContentLoaded", function() {
         let valid = true;
 
         if (nome.value.trim() === "") {
-            alert("O campo Nome é obrigatório.");
+            alert("O campo nome não pode ficar vazio!");
             valid = false;
         }
 
         if (email.value.trim() === "") {
-            alert("O campo E-mail é obrigatório.");
+            alert("O campo email não pode ficar vazio!");
             valid = false;
         }
 
         if (assunto.value.trim() === "") {
-            alert("O campo Assunto é obrigatório.");
+            alert("O campo assunto não pode ficar vazio!");
             valid = false;
         }
 
         if (mensagem.value.trim() === "") {
-            alert("O campo Mensagem é obrigatório.");
+            alert("O campo mensagem não pode ficar vazio!");
             valid = false;
         }
 
