@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (valid) {
             alert("Orçamento enviado com sucesso!");
-            form.submit();
+            // form.submit();
         }
     });
 });
